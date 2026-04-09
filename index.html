@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VishalNabiganj | Vlogs & Updates</title>
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Custom Smooth Scrolling */
@@ -15,12 +13,10 @@
 </head>
 <body class="bg-slate-50 text-slate-900 font-sans selection:bg-red-500 selection:text-white pb-10">
 
-    <!-- Navigation Navbar -->
     <nav class="fixed w-full bg-white/95 backdrop-blur-md z-50 border-b border-slate-200 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 
-                <!-- Logo -->
                 <div class="flex items-center gap-2 cursor-pointer">
                     <div class="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center shadow-md">
                         <i class="fa-solid fa-location-dot text-white text-lg"></i>
@@ -28,7 +24,6 @@
                     <span class="font-bold text-xl md:text-2xl tracking-tight text-slate-900">VishalNabiganj</span>
                 </div>
                 
-                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8 items-center">
                     <a href="#home" class="text-slate-600 hover:text-red-600 font-medium transition-colors">Home</a>
                     <a href="#videos" class="text-slate-600 hover:text-red-600 font-medium transition-colors">Vlogs</a>
@@ -38,7 +33,6 @@
                     </a>
                 </div>
 
-                <!-- Mobile menu button -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-btn" class="text-slate-600 hover:text-slate-900 text-2xl focus:outline-none">
                         <i class="fa-solid fa-bars" id="menu-icon"></i>
@@ -47,7 +41,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 absolute w-full shadow-lg">
             <div class="px-4 pt-2 pb-4 space-y-2">
                 <a href="#home" class="mobile-link block px-3 py-3 text-slate-600 hover:text-red-600 hover:bg-red-50 rounded-lg font-medium">Home</a>
@@ -62,7 +55,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="pt-28 pb-16 md:pt-40 md:pb-24 px-4 overflow-hidden relative flex flex-col items-center justify-center min-h-[80vh]">
         <div class="max-w-4xl mx-auto text-center relative z-10 w-full">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-50 text-red-700 text-sm font-bold mb-6 border border-red-200 shadow-sm">
@@ -92,7 +84,6 @@
         </div>
     </section>
 
-    <!-- YouTube Vlogs Section -->
     <section id="videos" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center mb-12 text-center md:text-left">
@@ -104,25 +95,20 @@
                 </div>
             </div>
 
-            <!-- Video Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Video 1 -->
                 <a href="https://youtu.be/h7ZL8oqwk_E" target="_blank" class="group cursor-pointer block bg-slate-50 rounded-2xl p-3 border border-slate-100 hover:border-red-200 transition-all hover:shadow-lg">
-                    <div class="w-full aspect-video bg-red-500 rounded-xl relative overflow-hidden mb-4 shadow-inner">
-                        <div class="w-full aspect-video rounded-xl relative overflow-hidden mb-4 shadow-inner">
-    <img src="vlog1.png" class="absolute inset-0 w-full h-full object-cover" alt="Video Thumbnail">
-    <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
-        <i class="fa-regular fa-circle-play text-white text-5xl opacity-80 group-hover:scale-110 group-hover:opacity-100 transition-all drop-shadow-xl"></i>
-    </div>
+                    <div class="w-full aspect-video rounded-xl relative overflow-hidden mb-4 shadow-inner">
+                        <img src="vlog1.png" class="absolute inset-0 w-full h-full object-cover" alt="Video Thumbnail">
+                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                            <i class="fa-regular fa-circle-play text-white text-5xl opacity-80 group-hover:scale-110 group-hover:opacity-100 transition-all drop-shadow-xl"></i>
                         </div>
+                    </div>
                     <div class="px-2">
-                        <h3 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-red-600 transition-colors line-clamp-2">गाँव बगीचे में अ्चानक आई नीलगाय
-|Rare Village Scene</h3>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-red-600 transition-colors line-clamp-2">गाँव बगीचे में अ्चानक आई नीलगाय | Rare Village Scene</h3>
                         <div class="text-sm font-medium text-slate-500">43 Views • 1 April 2026</div>
                     </div>
                 </a>
 
-                <!-- Video 2 -->
                 <a href="https://www.youtube.com/@vishalsharma4697" target="_blank" class="group cursor-pointer block bg-slate-50 rounded-2xl p-3 border border-slate-100 hover:border-red-200 transition-all hover:shadow-lg">
                     <div class="w-full aspect-video bg-orange-500 rounded-xl relative overflow-hidden mb-4 shadow-inner">
                         <div class="absolute inset-0 flex items-center justify-center">
@@ -135,7 +121,6 @@
                     </div>
                 </a>
 
-                <!-- Video 3 -->
                 <a href="https://www.youtube.com/@vishalsharma4697" target="_blank" class="group cursor-pointer block bg-slate-50 rounded-2xl p-3 border border-slate-100 hover:border-red-200 transition-all hover:shadow-lg">
                     <div class="w-full aspect-video bg-amber-500 rounded-xl relative overflow-hidden mb-4 shadow-inner">
                         <div class="absolute inset-0 flex items-center justify-center">
@@ -157,7 +142,6 @@
         </div>
     </section>
 
-    <!-- Articles / Updates Section -->
     <section id="articles" class="py-20 bg-slate-100 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-14">
@@ -168,7 +152,6 @@
                 <p class="text-lg text-slate-600">Gaon ki nayi jankariyan, vikas ke kaam, aur zaruri khabrein padhein.</p>
             </div>
 
-            <!-- Articles Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl hover:border-blue-200 transition-all hover:-translate-y-2 flex flex-col h-full">
                     <div class="text-sm font-bold text-blue-600 mb-2 bg-blue-50 w-fit px-3 py-1 rounded-full">9 April 2026</div>
@@ -189,7 +172,6 @@
         </div>
     </section>
 
-    <!-- Footer Area -->
     <footer class="bg-slate-900 text-slate-300 pt-16 pb-8 mt-10 rounded-t-[3rem] mx-2 sm:mx-4">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
             <h3 class="text-2xl font-bold text-white mb-2">VishalNabiganj</h3>
@@ -203,7 +185,6 @@
         </div>
     </footer>
 
-    <!-- JavaScript for Mobile Menu -->
     <script>
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
